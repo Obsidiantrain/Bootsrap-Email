@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="emailstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <!--navbar-->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!--Logo-->
+                <img src="logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+            </a>
+
+            <h1 style="font-size: 80px ; font-family: Georgia, 'Times New Roman', Times, serif;">JestEmail!</h1>
+
+            <!--search bar-->
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+
+
+    <!-- container -->
+    <div class="container ">
+        <div class="row">
+            <div class="d-none d-md-block col-md-4 col-lg-2 options">Options
+
+                <div class="btn-group-vertical btn-group-lg" role="group" aria-label="...">
+                    <button type="button" class="btn btn-danger">Compose</button>
+                    <button type="button" class="btn btn-danger">Inbox</button>
+                    <button type="button" class="btn btn-danger">Sent</button>
+                    <button type="button" class="btn btn-danger">Spam</button>
+                    <button type="button" class="btn btn-danger">Trash</button>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="col messages">Messages
+
+                <ul class="list-group">
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center btn btn-danger">
+                        LinkedIn
+                        <span class="badge badge-primary badge-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center btn btn-danger">
+                        Bayvalleytech
+                        <span class="badge badge-primary badge-pill">2</span>
+                    </li>
+                    <a href="#mom" data-bs-toggle="collapse">
+                        <li class="list-group-item d-flex justify-content-between align-items-center btn btn-danger">
+                            Mom
+                            <span class="badge badge-primary badge-pill">1</span>
+                    </a>
+                    </li>
+                    <a href="#jimmy" data-bs-toggle="collapse">
+                    <li class="list-group-item d-flex justify-content-between align-items-center btn btn-danger">
+                        Jimmykilla239
+                        <span class="badge badge-primary badge-pill">47</span><a>
+                    </li>
+                    <a href="#obama" data-bs-toggle="collapse">
+                        <li class="list-group-item d-flex justify-content-between align-items-center btn btn-danger">
+                            Obama
+                            <span class="badge badge-danger badge-pill">3</span>
+                    </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <div class="d-none d-lg-block col-lg-8 email">
+                Email
+                <div id="mom" data-bs-toggle="collapse">
+
+                    <p class="to-and-from">To:Moldyfoot@toopy.com</p>
+                    <p class="to-and-from">From: Mommerz21@froopy.gov</p>
+
+                    <p class="subject">Check up!</p>
+
+
+                    <p class="mom-text">How is my favorite bouncing boy doing? I just had this extremely bad rash and it
+                        reminded me of you! Hope youre doing well and call me if you need anything! </p>
+
+                </div>
+
+
+                <div id="jimmy" data-bs-toggle="collapse">
+
+                    <p class="to-and-from">To:Moldyfoot@toopy.com</p>
+                    <p class="to-and-from">From: JimJam@froopy.gov</p>
+
+                    <p class="subject">Hacker</p>
+
+
+                    <p class="mom-text">Aint no way youre doing all that without hacking! </p>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <div id="obama" data-bs-toggle="collapse">
+
+                    <p class="to-and-from">To:Moldyfoot@toopy.com</p>
+                    <p class="to-and-from">From: MrBaller21@froopy.gov</p>
+
+                    <p class="subject">Congrats</p>
+
+
+                    <p class="mom-text">You are here by being awarded the badge of honor for being so cool! </p>
+
+                </div>
+
+
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Reply</label>
+                </div>
+                <!-- button -->
+                <button type="button" class="btn btn-danger">Send</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
